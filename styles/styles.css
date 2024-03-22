@@ -23,7 +23,7 @@ img {
 main {
     max-width: 840px;
   }
-  side {
+  aside {
     width: 200px; 
     margin: 10px; 
     border: 1px solid black;
@@ -32,7 +32,7 @@ main {
     color: black; 
     text-align: center;
   }
-  aside img {
+aside img {
     width: 200px;
     height: auto;
   }
