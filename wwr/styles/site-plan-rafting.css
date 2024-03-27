@@ -6,8 +6,8 @@ body {
     padding: 20px;
   }
 :root {
-    --primary-color: #9DD9D2;
-    --secondary-color: #FF8811;
+    --primary-color:#FF8811 ;
+    --secondary-color:#9DD9D2;
     --accent1-color: #F4D06F; 
     --accent2-color: #FFF8F0;
     --heading-font: 'Oswald', sans-serif; 
