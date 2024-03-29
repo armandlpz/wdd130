@@ -44,19 +44,13 @@ aside {
 }
 
 aside img {
-  position: relative;
-  top: -40px;
-  left: 5px;
-  width: 200px;
+  width: 180px;
   height: auto;
-  float: left;
 }
 
 
 aside h2 {
-  position: relative;
-  top: -5px;
-  left: 5px;
+  position: absolute;
   background-color: rgba(255, 255, 255, 0.7); 
   padding: 10px;
 }
@@ -65,6 +59,8 @@ main img {
   width: 150px;
   height: auto;
   float: right;
+  border: 1px silver;
+  padding: 2px;
 }
 
 p {
