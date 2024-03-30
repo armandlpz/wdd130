@@ -121,7 +121,7 @@ p {
 .hero article {
     position: absolute;
     display: block;
-    top: 25%;
+    top: 0%;
     background-color: rgba(15, 28, 32, 0.6);
     color: var(--accent1-color);
 }
@@ -144,15 +144,14 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-auto-rows: minmax(100px, auto);
     align-items: center;
-    justify-items: center;
 }
 
 #adventures figure {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap; 
     align-items: center;
-    justify-items: center;
-    text-align: center;
-}
+    justify-content: center;
+  }
 
 
 section h2 {
