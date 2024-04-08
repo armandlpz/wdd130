@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>About Us - White Water Rafting</title>
-  <meta name="description" content="A website about rafting adventures for all skill levels, operated by Armando Lopez Borrego.">
+  <meta name="description" content="Connect with White Water River Adventure for an exhilarating rafting experience. Our Contact page provides all the details you need to reach out to us. Whether it's for inquiries, reservations, or feedback, we're here to assist. Navigate through our site or use the provided contact information to start your adventure today.">
   <meta name="author" content="Armando Lopez Borrego">
   <link rel="stylesheet" href="styles/rafting.css">  
 </head>
@@ -46,17 +46,25 @@
           <div>
               <h1>Contact Us</h1>
               <form>
-                  <fieldset>
-                      <legend>Customer information</legend>
-                      <label for="username">Username:</label>
-                      <input type="text" id="username" name="username">
-                      <label for="textbox">Message:</label>
-                      <textarea id="textbox" name="textbox" placeholder="Start Typing here"></textarea>
-                      <div class="column1">
-                          <label for="newsletter">Please Subscribe me to the Monthly Newsletter</label>
-                          <input type="checkbox" id="newsletter" name="newsletter">
-                      </div>
-                  </fieldset>
+                <fieldset>
+                  <legend>Customer Information</legend>
+                  <label for="username">Username:</label>
+                  <input type="text" id="username" name="username">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email">
+                  <label for="general-inquiry">General Inquiry</label>
+                  <input type="radio" id="general-inquiry" name="general-inquiry">
+                  <label for="reservation-question">Reservation Question</label>
+                  <input type="radio" id="reservation-question" name="reservation-question">
+                  <label for="website-suggestion">Website Suggestion</label>
+                  <input type="radio" id="website-suggestion" name="website-suggestion">   
+                  <label for="textbox"></label>
+                  <textarea id="textbox" name="textbox" placeholder="Start Typing here"></textarea> 
+              <div class="column1">       
+                  <label for="newsletter">Please Subscribe me to the Monthly Newsletter</label>
+                  <input type="checkbox" id="newsletter" name="newsletter">
+              </div>    
+              </fieldset>
                   <button type="submit">Submit Now</button>
               </form>
           </div>
