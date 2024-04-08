@@ -104,8 +104,7 @@ header nav a:hover {
 }
 
 p {
-    font-size: calc(0.5 * (1.6vw + 0.9vh));
-    padding: 25px;
+    padding: 8px;
 }
 
 .hero {
@@ -199,4 +198,111 @@ footer a {
     padding: 0;
     width: fit-content;
     height: auto;
+}
+
+#employees {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    float: left; 
+}
+
+#employees img {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+figure {
+    margin: 0; 
+    padding: 0; 
+}
+  
+  .contact {
+    margin: .5rem 0; 
+    text-align: center; 
+  }
+  
+  .contact p {
+  font-size: large;
+  }
+
+  .map {
+    margin-top: 2rem; 
+  }
+  
+  .map iframe {
+    border: none;
+    width: 50%; 
+    height: 200px; 
+  }
+
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    background-color: #F4D06F;
+    display: grid;
+}
+
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: darkblue;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#textbox {
+    display: flex;
+    width: auto;
+    height: 200px;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin: -px;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.contact h1 {
+    display: flex;
+    justify-content: center;
 }
