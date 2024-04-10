@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Contact - White Water River Adventure</title>
-  <meta name="description" content="Connect with White Water River Adventure for an exhilarating rafting experience. Our Contact page provides all the details you need to reach out to us. Whether it's for inquiries, reservations, or feedback, we're here to assist. Navigate through our site or use the provided contact information to start your adventure today.">
-  <meta name="author" content="Armando Lopez Borrego">
-  <link rel="stylesheet" href="styles/rafting.css">  
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Contact - White Water River Adventure</title>
+        <meta
+            name="description"
+            content="Connect with White Water River Adventure for an exhilarating rafting experience. Our Contact page provides all the details you need to reach out to us. Whether it's for inquiries, reservations, or feedback, we're here to assist. Navigate through our site or use the provided contact information to start your adventure today."
+        />
+        <meta name="author" content="Armando Lopez Borrego" />
+        <link rel="stylesheet" href="styles/rafting.css" />
+    </head>
     <body>
         <header>
-            <a href="index.html" id="logolink"><img src="images/wwr.png" alt="Rafting Site Logo" id="logo"></a>
+            <a href="index.html" id="logolink"><img src="images/wwr.png" alt="Rafting Site Logo" id="logo" /></a>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
@@ -19,71 +22,97 @@
             </nav>
         </header>
         <main>
-          <div id="employees">
-              <h2>Meet our team</h2>
-              <figure>
-                  <img src="images/happy_emp3.jpg" alt="A picture of a person wearing a floating vest">
-                  <figcaption>Sandy</figcaption>
-              </figure>
-              <figure>
-                  <img src="images/happy_emp2.jpg" alt="A picture of a person wearing a floating vest and a paddle">
-                  <figcaption>Doug</figcaption>
-              </figure>
-              <figure>
-                  <img src="images/happy_emp4.jpg" alt="A picture of a person wearing a floating vest and a paddle">
-                  <figcaption>Rob</figcaption>
-              </figure>
-          </div>
-          <div class="contact">
-              <h1>Send us a Message</h1>
-              <p>San Jose City</p>
-              <p>Phone: 055-321-745</p>
-              <p>Email: wwr@companyname.com</p>
-              <div class="map">
-                <iframe src="https://www.google.com/maps/d/embed?mid=1-M2dB632qtXCy2Dmjr_acK88wGI&hl=en&ehbc=2E312F" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           
-                  
-              </div>
-          </div>
-          <div>
-              <h1>Contact Us</h1>
-              <form>
-                <fieldset>
-                  <legend>Customer Information</legend>
-                  <label for="username">Username:</label>
-                  <input type="text" id="username" name="username">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email">
-                  <label for="general-inquiry">General Inquiry</label>
-                  <input type="radio" id="general-inquiry" name="general-inquiry">
-                  <label for="reservation-question">Reservation Question</label>
-                  <input type="radio" id="reservation-question" name="reservation-question">
-                  <label for="website-suggestion">Website Suggestion</label>
-                  <input type="radio" id="website-suggestion" name="website-suggestion">   
-                  <label for="textbox"></label>
-                  <textarea id="textbox" name="textbox" placeholder="Start Typing here"></textarea> 
-              <div class="column1">       
-                  <label for="newsletter">Please Subscribe me to the Monthly Newsletter</label>
-                  <input type="checkbox" id="newsletter" name="newsletter">
-              </div>    
-              </fieldset>
-                  <button type="submit">Submit Now</button>
-              </form>
-          </div>
-      </main>
-         <footer>
-            <p>&copy;2024 | White Water Rafting | Armando Lopez Borrego </p>
+            <div id="employees">
+                <h2>Meet our team</h2>
+                <figure>
+                    <img src="images/happy_emp3.jpg" alt="A picture of a person wearing a floating vest" />
+                    <figcaption>Sandy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy_emp2.jpg" alt="A picture of a person wearing a floating vest and a paddle" />
+                    <figcaption>Doug</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy_emp4.jpg" alt="A picture of a person wearing a floating vest and a paddle" />
+                    <figcaption>Rob</figcaption>
+                </figure>
+            </div>
+            <div class="contact">
+                <h1>Send us a Message</h1>
+                <p>San Jose City</p>
+                <p>Phone: 055-321-745</p>
+                <p>Email: wwr@companyname.com</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/d/embed?mid=1-M2dB632qtXCy2Dmjr_acK88wGI&hl=en&ehbc=2E312F"
+                        width="600"
+                        height="450"
+                        allowfullscreen=""
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+            <div>
+                <h1 class="contactTitle">Contact Us</h1>
+                <form>
+                    <fieldset class="fieldsetInfo">
+                        <legend>Customer Information</legend>
+                        <div class="formInfo">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" />
+                        </div>
+                        <div class="formInfo">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" />
+                        </div>
+                        <div class="formInfo">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="formInfo">
+                            <label for="general-inquiry">General Inquiry</label>
+                            <input type="radio" id="general-inquiry" name="general-inquiry" />
+                        </div>
+                        <div class="formInfo">
+                            <label for="reservation-question">Reservation Question</label>
+                            <input type="radio" id="reservation-question" name="reservation-question" />
+                        </div>
+
+                        <div class="formInfo">
+                            <label for="website-suggestion">Website Suggestion</label>
+                            <input type="radio" id="website-suggestion" name="website-suggestion" />
+                        </div>
+
+                        <div class="formInfo">
+                            <label for="textbox"></label>
+                            <textarea id="textbox" name="textbox" placeholder="Start Typing here"></textarea>
+                        </div>
+
+                        <div class="column1">
+                            <label for="newsletter">Please Subscribe me to the Monthly Newsletter</label>
+                            <input type="checkbox" id="newsletter" name="newsletter" />
+                        </div>
+                    </fieldset>
+                    <button type="submit">Submit Now</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;2024 | White Water Rafting | Armando Lopez Borrego</p>
             <nav class="sociallinks">
-              <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-              </a>
-              <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter">
-              </a>
-              <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-              </a>
-              <a href="https://app.moqups.com/Dx3BxEMlW5C6dCMZLOW2t3ZSQGJ02aSa/view/page/ad64222d5">Contact Wireframe</a>
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twitter" />
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram" />
+                </a>
+                <a href="https://app.moqups.com/Dx3BxEMlW5C6dCMZLOW2t3ZSQGJ02aSa/view/page/ad64222d5"
+                    >Contact Wireframe</a
+                >
             </nav>
         </footer>
-  </body>
+    </body>
 </html>

@@ -125,11 +125,74 @@ p {
     color: var(--accent1-color);
 }
 
+.hero-image{
+    width:50%;
+}
+
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/whiteRafting.avif');
+    background-size: cover;
+}
+
+.newsletter-form {
+    margin-top: 40px;
+    width: 300px;
+}
+
+.newsletter-form form{
+    width: 300px;
+}
+
+.newsletter-form h2{
+    color:white;
+}
+
+.hero-image h1{
+    color:white;
+}
+
+.hero-image .cta-button{
+    width:300px;
+    align-content: center;
+}
+
+.hero-image .cta-button:hover{
+    color:#007bff;
+    background-color: white;
+}
+
+.hero-image p{
+    background-color:var(--accent1-color);
+    border:1px solid var(--accent1-color);
+    border-radius:4px;
+    color:#777;
+    width:300px;
+}
+
 .hero h1 {
     text-align: center;
     margin: 2% auto;
     color: var(--accent1-color);
     font-size: calc(0.9 * (1.6vw + 0.9vh));
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container .grid-item{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item img{
+    width:100px;
+    height: 100px;
 }
 
 .hero article img {
@@ -237,15 +300,24 @@ figure {
   }
 
   form {
-    width: 650px;
+    width: 400px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid #fff;
     border-radius: 0.5rem;
     background-color: #F4D06F;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+
+.fieldsetInfo{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
 
 fieldset {
     display: grid;
@@ -289,7 +361,7 @@ button:hover {
 
 #textbox {
     display: flex;
-    width: auto;
+    width: 100%;
     height: 200px;
     text-align: left;
 }
@@ -303,6 +375,11 @@ input[type="radio"] {
 }
 
 .contact h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contactTitle{
     display: flex;
     justify-content: center;
 }
@@ -343,13 +420,42 @@ p {
 
 /* Trip descriptions */
 .trip {
+    display:flex;
     margin-bottom: 40px;
+}
+
+.tripBanner{
+    display:flex;
+    flex-direction: column;
+}
+
+.tripBanner .cta-button{
+    border-radius:100%;
+    padding:0;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.tripBanner .cta-button:hover{
+    color:#007bff;
+    background-color: white;
+}
+
+.tripContent{
+    display:flex;
+    flex-direction: column;
 }
 
 .trip img {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:150px;
+    height:150px;
 }
 
 .trip h2 {
@@ -359,7 +465,7 @@ p {
 }
 
 .trip p {
-    font-size: 14px;
+    font-size: 20px;
     color: #777;
 }
 
@@ -379,6 +485,12 @@ th, td {
 th {
     background-color: #f5f5f5;
     font-weight: bold;
+}
+
+.formInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Responsive adjustments */
@@ -442,6 +554,7 @@ p {
 /* Newsletter form styles */
 .newsletter-form {
     margin-top: 40px;
+    width: 300px;
 }
 
 h2 {
@@ -505,4 +618,4 @@ button[type="submit"] {
     font-size: 14px;
     color: #777;
 }
-
+}
