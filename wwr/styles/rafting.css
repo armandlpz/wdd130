@@ -121,7 +121,6 @@ p {
     position: absolute;
     display: block;
     top: 0%;
-    background-color: rgba(15, 28, 32, 0.6);
     color: var(--accent1-color);
 }
 
@@ -168,7 +167,6 @@ p {
     background-color:var(--accent1-color);
     border:1px solid var(--accent1-color);
     border-radius:4px;
-    color:#777;
     width:300px;
 }
 
